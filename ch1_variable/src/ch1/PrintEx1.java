@@ -28,5 +28,6 @@ public class VarByteEx {
 
 
         System.out.printf("f1=%.5f\n", f1);
-        System.out.printf(:"d1=%5.3f\n", d1); 
+        System.out.printf("d1=%5.3f\n", d1); 
+    }
 }
