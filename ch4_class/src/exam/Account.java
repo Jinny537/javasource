@@ -9,9 +9,23 @@ public class Account {
 
   public Account() {}
 
-  public Account(int id, String name, int money) {
+  public Account(String id, String name, int money) {
     this.id = id;
     this.name = name;
     this.money = money;
+  }
+
+  // 예금하다
+  // deposit
+  int deposit(int amount) {
+    money = money + amount;
+    return money;
+  }
+
+  // 출금하다
+  // withdraw
+  int withdraw(int amount) {
+    money = money - amount;
+    return money;
   }
 }

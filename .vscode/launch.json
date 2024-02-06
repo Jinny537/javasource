@@ -6,6 +6,104 @@
   "configurations": [
     {
       "type": "java",
+      "name": "DateEx",
+      "request": "launch",
+      "mainClass": "ch4.DateEx",
+      "projectName": "javasource_7647bc37"
+    },
+    {
+      "type": "java",
+      "name": "MymathEx",
+      "request": "launch",
+      "mainClass": "ch4.MymathEx",
+      "projectName": "javasource_7647bc37"
+    },
+    {
+      "type": "java",
+      "name": "CardEx",
+      "request": "launch",
+      "mainClass": "ch4.CardEx",
+      "projectName": "javasource_7647bc37"
+    },
+    {
+      "type": "java",
+      "name": "NumbersEx",
+      "request": "launch",
+      "mainClass": "ch4.NumbersEx",
+      "projectName": "javasource_7647bc37"
+    },
+    {
+      "type": "java",
+      "name": "MiniCalcEx",
+      "request": "launch",
+      "mainClass": "ch4.MiniCalcEx",
+      "projectName": "javasource_7647bc37"
+    },
+    {
+      "type": "java",
+      "name": "PrinterEx",
+      "request": "launch",
+      "mainClass": "exam.PrinterEx",
+      "projectName": "javasource_7647bc37"
+    },
+    {
+      "type": "java",
+      "name": "PersonEx",
+      "request": "launch",
+      "mainClass": "ch4.PersonEx",
+      "projectName": "javasource_7647bc37"
+    },
+    {
+      "type": "java",
+      "name": "TvEx",
+      "request": "launch",
+      "mainClass": "ch4.TvEx",
+      "projectName": "javasource_7647bc37"
+    },
+    {
+      "type": "java",
+      "name": "StudentEx2",
+      "request": "launch",
+      "mainClass": "ch4.StudentEx2",
+      "projectName": "javasource_7647bc37"
+    },
+    {
+      "type": "java",
+      "name": "StudentEx",
+      "request": "launch",
+      "mainClass": "ch4.StudentEx",
+      "projectName": "javasource_7647bc37"
+    },
+    {
+      "type": "java",
+      "name": "AccountEx",
+      "request": "launch",
+      "mainClass": "exam.AccountEx",
+      "projectName": "javasource_7647bc37"
+    },
+    {
+      "type": "java",
+      "name": "TriangieEx",
+      "request": "launch",
+      "mainClass": "exam.TriangieEx",
+      "projectName": "javasource_7647bc37"
+    },
+    {
+      "type": "java",
+      "name": "GoodsStockEx",
+      "request": "launch",
+      "mainClass": "exam.GoodsStockEx",
+      "projectName": "javasource_7647bc37"
+    },
+    {
+      "type": "java",
+      "name": "CalcEx",
+      "request": "launch",
+      "mainClass": "exam.CalcEx",
+      "projectName": "javasource_7647bc37"
+    },
+    {
+      "type": "java",
       "name": "ArrayEx17",
       "request": "launch",
       "mainClass": "array.ArrayEx17",
