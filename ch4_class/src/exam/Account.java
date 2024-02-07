@@ -17,15 +17,39 @@ public class Account {
 
   // 예금하다
   // deposit
-  int deposit(int amount) {
+  public int deposit(int amount) {
     money = money + amount;
     return money;
   }
 
   // 출금하다
   // withdraw
-  int withdraw(int amount) {
+  public int withdraw(int amount) {
     money = money - amount;
     return money;
+  }
+
+  public String getId() {
+    return id;
+  }
+
+  public void setId(String id) {
+    this.id = id;
+  }
+
+  public String getName() {
+    return name;
+  }
+
+  public void setName(String name) {
+    this.name = name;
+  }
+
+  public int getMoney() {
+    return money;
+  }
+
+  public void setMoney(int money) {
+    this.money = money;
   }
 }

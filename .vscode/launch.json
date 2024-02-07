@@ -6,6 +6,48 @@
   "configurations": [
     {
       "type": "java",
+      "name": "SingletonEx",
+      "request": "launch",
+      "mainClass": "ch4.SingletonEx",
+      "projectName": "javasource_7647bc37"
+    },
+    {
+      "type": "java",
+      "name": "Bankapp",
+      "request": "launch",
+      "mainClass": "exam.Bankapp",
+      "projectName": "javasource_7647bc37"
+    },
+    {
+      "type": "java",
+      "name": "AccountEx2",
+      "request": "launch",
+      "mainClass": "exam.AccountEx2",
+      "projectName": "javasource_7647bc37"
+    },
+    {
+      "type": "java",
+      "name": "StudentEx4",
+      "request": "launch",
+      "mainClass": "ch4.StudentEx4",
+      "projectName": "javasource_7647bc37"
+    },
+    {
+      "type": "java",
+      "name": "StudentEx3",
+      "request": "launch",
+      "mainClass": "ch4.StudentEx3",
+      "projectName": "javasource_7647bc37"
+    },
+    {
+      "type": "java",
+      "name": "ReferenceParam",
+      "request": "launch",
+      "mainClass": "ch4.ReferenceParam",
+      "projectName": "javasource_7647bc37"
+    },
+    {
+      "type": "java",
       "name": "DateEx",
       "request": "launch",
       "mainClass": "ch4.DateEx",
