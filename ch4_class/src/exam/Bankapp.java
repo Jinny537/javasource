@@ -77,17 +77,18 @@ public class Bankapp {
     String id = sc.nextLine();
     // 예금액
     System.out.print("잔액 >> ");
-    int money = Integer.parseInt(sc.nextLine());
-
-    // 배열에서 입력받은 계좌번호와 일치한 배열번호 찾기
-    Account account = findAccount(id);
-          // 찾은 요쇼의 잔액 + 예금액
-          if (account != null) {
-            
-          System.out.println("현재잔액 : " + account.deposit(money));
-          }
+    
+    try {
+        int money = Integer.parseInt(sc.nextLine());
+  
+        // 배열에서 입력받은 계좌번호와 일치한 배열번호 찾기
+        Account account = findAccount(id);
+  
+        if (account != null) {
+            System.out.println("현재잔액 : " + account.deposit(money));
         }
       }
+   }
 
 
   static void withdraw() {
@@ -110,13 +111,15 @@ public class Bankapp {
   }
 
 
-  static Account findAccount(String Id){
+  static Account findAccount(String id) {
     for (Account account : accArr) {
         if (account != null) {
-          if (account.getId().equals(id)) {
-            
-            return account;
-  }}}
-  return account(null);
+            if (account.getId().equals(id)) {
+                return account;
+            }
+        }
+    }
+    return null;  // Return null if the account is not found
+}
 }
 
