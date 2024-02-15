@@ -1,15 +1,16 @@
 package exam2;
 
-public class OddDetector {
-    int n;
-    public OddDetector(int n){
-        super();
-        this.n = n;
-    }
+public abstract class OddDetector {
 
-    public int getN() {
-        return n;
-    }
+  private int n;
 
-    public static isOdd(:)
+  public OddDetector(int n) {}
+
+  public int getN() {
+    return n;
+  }
+
+  public boolean isOdd() {
+    return false;
+  }
 }
