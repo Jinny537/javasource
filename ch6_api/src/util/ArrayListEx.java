@@ -60,7 +60,7 @@ public class ArrayListEx {
     System.out.println("get() " + list2.get(3)); // 지정된 위치에 있는 객체를 반환
     System.out.println("indexOf() " + list2.indexOf("Java")); // 지정된 객체가 저장된 위치 반환
     System.out.println("indexOf() " + list2.indexOf("JAVA")); // 지정된 객체가 저장된 위치 반환
-    System.out.println("remove() " + list2.remove("Java")); // 지전된 객체 제거
+    System.out.println("remove() " + list2.remove("Java")); // 지정된 객체 제거
     System.out.println(list2);
     System.out.println("remove() " + list2.remove(2)); // 제거되는 객체가 반환
     System.out.println(list2);
