@@ -37,7 +37,7 @@ public class FileEx {
     System.out.println("File.separator - " + File.separator);
     System.out.println("File.separatorChar - " + File.separatorChar);
     System.out.println();
-    //
+    // E:\source\javasource\ch9_io>
     System.out.println("user.dir = " + System.getProperty("user.dir"));
   }
 }
