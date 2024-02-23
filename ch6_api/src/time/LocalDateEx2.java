@@ -20,6 +20,7 @@ public class LocalDateEx2 {
 
     // 특정 날짜 지정
     LocalDate birth = LocalDate.of(1950, 11, 23);
+    System.out.println("몰루5546321");
     LocalTime birthTime = LocalTime.of(23, 11, 58);
 
     // 날짜 덧셈
@@ -32,7 +33,8 @@ public class LocalDateEx2 {
     System.out.println(date.getMinute());
     System.out.println(date.getSecond());
     System.out.println(date.getYear());
-    System.out.println(date.getMonth());
+    System.out.println(date.getMonth().get);
     System.out.println(date.getDayOfMonth());
+    System.out.println();
   }
 }
